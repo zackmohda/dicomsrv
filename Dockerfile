@@ -1,4 +1,4 @@
-FROM ubuntu:lunar
+FROM ubuntu:22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get -q --fix-missing update -y
