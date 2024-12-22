@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:alpine
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get -q --fix-missing update -y
